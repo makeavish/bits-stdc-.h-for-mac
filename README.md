@@ -4,6 +4,7 @@ Include bits/stdc++.h on mac
 bits/stdc++ is a GNU GCC extension, whereas OS X uses the clang compiler. However, you can install gcc and make it work by manually adding the header file.
 
 ## Steps
+- Install xcode command line tools using this command ```xcode-select --install```
 - Install [Homebrew](https://brew.sh/) (if not installed)
 - Instal gcc with this command: ```brew install gcc```
 - Now open terminal and navigate: ```cd /usr/local/bin```
